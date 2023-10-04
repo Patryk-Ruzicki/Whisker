@@ -1,0 +1,19 @@
+/* General */
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: whitesmoke;
+}
+a{
+  text-decoration: none;
+}
+
+/* Header */
+#cattegory-title{
+  color: #08a0e9;
+}
+#cattegory-title-container{
+  
+}
