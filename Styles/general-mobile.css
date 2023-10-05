@@ -5,6 +5,7 @@
 }
 body{
   background-color: #f5f5f5;
+
 }
 a{
   text-decoration: none;
@@ -14,12 +15,11 @@ a{
 header{
   border-bottom: 1px solid #dcdcdc;
   background-color: #f5f5f5bf;
-
   position: fixed;
   top: 0;
   right: 0;
   left: 14vw;
-  height: 100px;
+  height: 120px;
 
   display:flex;
   flex-direction: column;
@@ -29,14 +29,21 @@ header{
   cursor:default;
 }
 #cattegory-title-container{
-  padding: 10px;
   display: flex;
+  position: relative;
+  flex: 1;
+}
+h2{
+  position:absolute;
+  top: 15px;
+  left: 10px;
 }
 #cattegory-title-button-container{
   flex: 1;
   display: flex;
 }
 .Cattegory-title-button{
+  height: 100%;
   color:#08a0e9;
   background-color: transparent;
   border:none;
@@ -52,4 +59,15 @@ header{
 }
 .Cattegory-title-button:active{
   opacity: 0.7;
+}
+
+/* Navigation Panel */
+nav{
+  border-right: 1px solid #dcdcdc;
+
+  position: fixed;
+  width: 14vw;
+  left: 0;
+  top: 0;
+  bottom: 0;
 }
