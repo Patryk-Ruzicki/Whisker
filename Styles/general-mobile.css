@@ -105,7 +105,9 @@ nav{
 }
 
 /* Main */
-
+main{
+  max-width: 580px;
+}
 /* Post creation */
 #post-creator-container{
   background-color: lightblue;
@@ -114,12 +116,32 @@ nav{
   height: 110px;
 }
 .Post-profile-picture-container{
-  
+  padding: 10px;
 }
 .Post-content-container{
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 #post-creator-input{
   background-color: transparent;
   border: none;
+  width: 100%;
+  margin-left: 10px;
+}
+#post-creator-input:focus{
+  border: none;
+}
+#post-creator-input::placeholder{
+  color: #aaaaaa;
+  font-size: 15px ;
+}
+#post-creator-input-container{
+  background-color: aquamarine;
+  flex: 1;
+  display: flex;
+}
+#post-creator-buttons-container{
+  background-color: antiquewhite;
+  flex: 1;
 }
