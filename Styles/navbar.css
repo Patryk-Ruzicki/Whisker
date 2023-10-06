@@ -1,0 +1,52 @@
+/* Navigation Panel */
+
+
+nav{
+  border-right: 1px solid #dcdcdc;
+
+  display: flex;
+  justify-content: center;
+}
+#cattegory-select-butttons-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.Cattegory-select-button{
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+
+  width: 55px;
+  margin: 5px;
+  height: 55px;
+
+  cursor: pointer;
+  transition: 0.15s;
+}
+.Cattegory-select-button:hover{
+  background-color: #e6e6e6;
+}
+.Cattegory-title-button-icon{
+  width: 35px;
+}
+
+@media (max-width:600px){
+  nav{
+    position: fixed;
+    width: 70px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+@media (min-width:600px){
+  nav{
+    position: fixed;
+    width: 75px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
