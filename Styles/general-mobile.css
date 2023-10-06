@@ -18,7 +18,7 @@ header{
   position: fixed;
   top: 0;
   right: 0;
-  left: 14vw;
+  left: 70px;
   height: 120px;
 
   display:flex;
@@ -66,8 +66,15 @@ nav{
   border-right: 1px solid #dcdcdc;
 
   position: fixed;
-  width: 14vw;
+  width: 70px;
   left: 0;
   top: 0;
   bottom: 0;
+}
+
+/* Main */
+
+/* Post creation */
+#post-creator-container{
+
 }
