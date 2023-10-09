@@ -1,17 +1,30 @@
 /* General */
+
 body{
   display: flex;
+  padding-bottom: 500px;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
-
-/* Nav */
-nav{
-  
+@media (max-width:625px){
+  body{
+    padding-left:70px;
+  }
+}
+@media (min-width:625px){
+  body{
+    padding-left:80px;
+  }
 }
 
 /* Main */
 main{
   
 }
+
+
+
+
 
 /* Aside */
 aside{
@@ -24,18 +37,6 @@ aside{
 /* 
 <body>
   
-
-  <nav>
-    <div id="cattegory-select-butttons-container">
-      <button class="Cattegory-select-button">
-        <img class="Cattegory-title-button-icon" src="Icons/Whisker-Logo.svg">
-      </button>
-      <button class="Cattegory-select-button">
-        <img class="Cattegory-title-button-icon" src="Icons/Whisker-Logo.svg">
-      </button>
-    </div>
-  </nav>
-
   <main>
     <header>
 
