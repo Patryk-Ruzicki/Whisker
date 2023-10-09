@@ -1,12 +1,75 @@
+/* General */
 body{
   display: flex;
 }
+
+/* Nav */
 nav{
-
+  
 }
+
+/* Main */
 main{
-
+  
 }
+
+/* Aside */
 aside{
   
 }
+
+
+
+
+/* 
+<body>
+  
+
+  <nav>
+    <div id="cattegory-select-butttons-container">
+      <button class="Cattegory-select-button">
+        <img class="Cattegory-title-button-icon" src="Icons/Whisker-Logo.svg">
+      </button>
+      <button class="Cattegory-select-button">
+        <img class="Cattegory-title-button-icon" src="Icons/Whisker-Logo.svg">
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <header>
+
+      <div id="cattegory-title-container">
+        <h2 id="cattegory-title">Home</h2>
+      </div>
+  
+      <div id="cattegory-title-button-container">
+        <button class="Cattegory-title-button">For you</button>
+        <button class="Cattegory-title-button">Following</button>
+      </div>
+  
+    </header>
+    <div id="home-page-content">
+      <article id="post-creator-container">
+
+        <div class="Post-profile-picture-container">
+          <img class="Profile-picture-image" src="Profile-pictures/Profile-picture1.png">  
+        </div>
+        <div class="Post-content-container">
+          <div id="post-creator-input-container">
+            <input id="post-creator-input" placeholder="What's meowing around?!">
+          </div>
+        <div id="post-creator-buttons-container">
+
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <aside>
+
+  </aside>
+
+</body>
+*/
